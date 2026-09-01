@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236366f1'/><text x='50' y='68' font-size='60' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>T</text></svg>">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ToolNest - Free online tools for text, SEO, developers and everyday tasks.">
+    <title>ToolNest - Free Online Tools</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="container nav-container">
+
+        <a href="#" class="logo">
+            <span class="logo-icon">T</span>
+            <span>Tool<span>Nest</span></span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#tools">Tools</a>
+            <a href="#categories">Categories</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button id="themeBtn" class="theme-btn">☾</button>
+            <a href="#tools" class="login-btn">Explore</a>
+            <a href="#tools" class="get-started">Get Started</a>
+        </div>
+
+        <button class="mobile-menu" id="mobileMenu">☰</button>
+    </div>
+</header>
+
+
+<section class="hero">
+
+    <div class="hero-glow glow-1"></div>
+    <div class="hero-glow glow-2"></div>
+
+    <div class="container hero-content">
+
+        <div class="badge">
+            ✦ Simple tools. Powerful results.
+        </div>
+
+        <h1>
+            Everything you need,
+            <span>all in one place.</span>
+        </h1>
+
+        <p>
+            Free online tools designed to make your everyday
+            tasks faster, easier and more productive.
+        </p>
+
+        <div class="hero-search">
+            <span>⌕</span>
+
+            <input
+                type="text"
+                id="heroSearch"
+                placeholder="Search for a tool..."
+            >
+
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="quick-links">
+            <span>Popular:</span>
+
+            <button data-search="word">Word Counter</button>
+            <button data-search="password">Password Generator</button>
+            <button data-search="json">JSON Formatter</button>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="stats">
+
+    <div class="container stats-grid">
+
+        <div class="stat">
+            <strong>50+</strong>
+            <span>Free Tools</span>
+        </div>
+
+        <div class="stat">
+            <strong>100%</strong>
+            <span>Free to Use</span>
+        </div>
+
+        <div class="stat">
+            <strong>Fast</strong>
+            <span>Instant Results</span>
+        </div>
+
+        <div class="stat">
+            <strong>24/7</strong>
+            <span>Available Online</span>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="section" id="categories">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <span>CATEGORIES</span>
+
+            <h2>Tools for every task</h2>
+
+            <p>
+                Find the right tool for your daily workflow.
+            </p>
+        </div>
+
+        <div class="category-grid">
+
+            <div class="category-card">
+                <div class="category-icon">TXT</div>
+                <h3>Text Tools</h3>
+                <p>Count, convert and analyze your text.</p>
+                <span>Explore →</span>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">SEO</div>
+                <h3>SEO Tools</h3>
+                <p>Helpful tools for website optimization.</p>
+                <span>Explore →</span>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">DEV</div>
+                <h3>Developer Tools</h3>
+                <p>Useful tools for developers and coders.</p>
+                <span>Explore →</span>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">SEC</div>
+                <h3>Security Tools</h3>
+                <p>Generate passwords and encode data.</p>
+                <span>Explore →</span>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">IMG</div>
+                <h3>Image Tools</h3>
+                <p>Simple tools for image-related tasks.</p>
+                <span>Explore →</span>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">CALC</div>
+                <h3>Calculators</h3>
+                <p>Quick calculations for everyday use.</p>
+                <span>Explore →</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="section tools-section" id="tools">
+
+    <div class="container">
+
+        <div class="tools-header">
+
+            <div class="section-heading left">
+                <span>OUR TOOLS</span>
+
+                <h2>Popular tools</h2>
+
+                <p>
+                    Everything you need in one place.
+                </p>
+            </div>
+
+            <div class="tool-filters">
+
+                <button class="filter active" data-filter="all">
+                    All
+                </button>
+
+                <button class="filter" data-filter="text">
+                    Text
+                </button>
+
+                <button class="filter" data-filter="developer">
+                    Developer
+                </button>
+
+                <button class="filter" data-filter="security">
+                    Security
+                </button>
+
+                <button class="filter" data-filter="seo">
+                    SEO
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="tools-grid">
+
+
+            <div
+                class="tool-card"
+                data-name="word counter text counter"
+                data-category="text"
+            >
+
+                <div class="tool-top">
+                    <div class="tool-icon">TXT</div>
+                    <span class="tool-label">POPULAR</span>
+                </div>
+
+                <h3>Word Counter</h3>
+
+                <p>
+                    Count words, characters and sentences instantly.
+                </p>
+
+                <button class="open-tool" data-tool="counter">
+                    Open Tool →
+                </button>
+
+            </div>
+
+
+            <div
+                class="tool-card"
+                data-name="case converter uppercase lowercase"
+                data-category="text"
+            >
+
+                <div class="tool-top">
+                    <div class="tool-icon">Aa</div>
+                    <span class="tool-label">TEXT</span>
+                </div>
+
+                <h3>Case Converter</h3>
+
+                <p>
+                    Convert text to uppercase or lowercase.
+                </p>
+
+                <button class="open-tool" data-tool="case">
+                    Open Tool →
+                </button>
+
+            </div>
+
+
+            <div
+                class="tool-card"
+                data-name="password generator security"
+                data-category="security"
+            >
+
+                <div class="tool-top">
+                    <div class="tool-icon">🔐</div>
+                    <span class="tool-label">SECURITY</span>
+                </div>
+
+                <h3>Password Generator</h3>
+
+                <p>
+                    Create strong and secure random passwords.
+                </p>
+
+                <button class="open-tool" data-tool="password">
+                    Open Tool →
+                </button>
+
+            </div>
+
+
+            <div
+                class="tool-card"
+                data-name="json formatter developer"
+                data-category="developer"
+            >
+
+                <div class="tool-top">
+                    <div class="tool-icon">{}</div>
+                    <span class="tool-label">DEV</span>
+                </div>
+
+                <h3>JSON Formatter</h3>
+
+                <p>
+                    Format and validate JSON data quickly.
+                </p>
+
+                <button class="open-tool" data-tool="json">
+                    Open Tool →
+                </button>
+
+            </div>
+
+
+            <div
+                class="tool-card"
+                data-name="base64 encoder decoder developer"
+                data-category="developer"
+            >
+
+                <div class="tool-top">
+                    <div class="tool-icon">64</div>
+                    <span class="tool-label">DEV</span>
+                </div>
+
+                <h3>Base64 Encoder</h3>
+
+                <p>
+                    Encode and decode Base64 text instantly.
+                </p>
+
+                <button class="open-tool" data-tool="base64">
+                    Open Tool →
+                </button>
+
+            </div>
+
+
+            <div
+                class="tool-card"
+                data-name="meta tag generator seo"
+                data-category="seo"
+            >
+
+                <div class="tool-top">
+                    <div class="tool-icon">SEO</div>
+                    <span class="tool-label">SEO</span>
+                </div>
+
+                <h3>Meta Tag Generator</h3>
+
+                <p>
+                    Generate useful SEO meta tags for websites.
+                </p>
+
+                <button class="open-tool" data-tool="meta">
+                    Open Tool →
+                </button>
+
+            </div>
+
+
+            <div
+                class="tool-card"
+                data-name="url encoder decoder developer"
+                data-category="developer"
+            >
+
+                <div class="tool-top">
+                    <div class="tool-icon">URL</div>
+                    <span class="tool-label">DEV</span>
+                </div>
+
+                <h3>URL Encoder</h3>
+
+                <p>
+                    Encode and decode URLs easily.
+                </p>
+
+                <button class="open-tool" data-tool="url">
+                    Open Tool →
+                </button>
+
+            </div>
+
+
+            <div
+                class="tool-card"
+                data-name="remove spaces text cleaner"
+                data-category="text"
+            >
+
+                <div class="tool-top">
+                    <div class="tool-icon">CLR</div>
+                    <span class="tool-label">TEXT</span>
+                </div>
+
+                <h3>Remove Spaces</h3>
+
+                <p>
+                    Remove unnecessary spaces from your text.
+                </p>
+
+                <button class="open-tool" data-tool="spaces">
+                    Open Tool →
+                </button>
+
+            </div>
+
+
+            <div
+                class="tool-card"
+                data-name="calculator math calculator"
+                data-category="text"
+            >
+
+                <div class="tool-top">
+                    <div class="tool-icon">CALC</div>
+                    <span class="tool-label">CALCULATOR</span>
+                </div>
+
+                <h3>Simple Calculator</h3>
+
+                <p>
+                    Perform quick mathematical calculations.
+                </p>
+
+                <button class="open-tool" data-tool="calculator">
+                    Open Tool →
+                </button>
+
+            </div>
+
+        </div>
+
+        <div id="noResults" class="no-results">
+            No tools found.
+        </div>
+
+    </div>
+</section>
+
+
+<section class="features" id="features">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>WHY TOOLNEST</span>
+
+            <h2>Built for simplicity</h2>
+
+            <p>
+                Powerful features without unnecessary complexity.
+            </p>
+
+        </div>
+
+        <div class="features-grid">
+
+            <div class="feature">
+                <div class="feature-number">01</div>
+
+                <h3>Fast Results</h3>
+
+                <p>
+                    Get instant results without waiting for
+                    complicated processing.
+                </p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-number">02</div>
+
+                <h3>Easy to Use</h3>
+
+                <p>
+                    Clean and simple interfaces designed
+                    for everyone.
+                </p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-number">03</div>
+
+                <h3>Privacy Friendly</h3>
+
+                <p>
+                    Many tools work directly in your browser
+                    without uploading your data.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="about" id="about">
+
+    <div class="container about-grid">
+
+        <div class="about-content">
+
+            <span>ABOUT TOOLNEST</span>
+
+            <h2>
+                Your toolbox for everyday work.
+            </h2>
+
+            <p>
+                ToolNest brings useful online utilities together
+                in one clean and simple platform.
+            </p>
+
+            <p>
+                Whether you're a student, developer, writer,
+                marketer or everyday internet user, ToolNest
+                helps you get things done faster.
+            </p>
+
+            <a href="#tools" class="get-started about-btn">
+                Explore Tools
+            </a>
+
+        </div>
+
+
+        <div class="about-visual">
+
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+
+            <div class="pilot-center">
+                T
+            </div>
+
+            <div class="floating-card card-one">
+                ⚡ Fast
+            </div>
+
+            <div class="floating-card card-two">
+                🔒 Private
+            </div>
+
+            <div class="floating-card card-three">
+                ✦ Free Tools
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<section class="cta">
+
+    <div class="container cta-content">
+
+        <span>START TODAY</span>
+
+        <h2>
+            Get more done with ToolNest.
+        </h2>
+
+        <p>
+            Explore our collection of free online tools
+            and simplify your daily tasks.
+        </p>
+
+        <a href="#tools" class="cta-btn">
+            Explore Tools →
+        </a>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div class="container footer-grid">
+
+        <div class="footer-brand">
+
+            <a href="#" class="logo">
+                <span class="logo-icon">T</span>
+                <span>Tool<span>Nest</span></span>
+            </a>
+
+            <p>
+                Simple, useful and free online tools for everyone.
+            </p>
+
+        </div>
+
+        <div>
+            <h4>Tools</h4>
+            <a href="#tools">Word Counter</a>
+            <a href="#tools">Password Generator</a>
+            <a href="#tools">JSON Formatter</a>
+            <a href="#tools">SEO Tools</a>
+        </div>
+
+        <div>
+            <h4>Company</h4>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#">Privacy</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div>
+            <h4>Categories</h4>
+            <a href="#tools">Text Tools</a>
+            <a href="#tools">Developer Tools</a>
+            <a href="#tools">Security</a>
+            <a href="#tools">SEO</a>
+        </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+        © 2026 ToolNest. All rights reserved.
+    </div>
+
+</footer>
+
+
+<div class="modal" id="toolModal">
+
+    <div class="modal-box">
+
+        <button class="close-modal" id="closeModal">
+            ×
+        </button>
+
+        <div id="toolInterface"></div>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
