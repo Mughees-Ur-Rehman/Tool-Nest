@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tool-nest-six-ashy.vercel.app/sitemap.xml
